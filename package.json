@@ -1,0 +1,32 @@
+{
+	"name": "react-color-visualiser",
+	"version": "1.0.1",
+	"description": "",
+	"main": "lib/main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rollup -c"
+	},
+	"keywords": [],
+	"author": "mazen alswar",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.23.7",
+		"@babel/preset-env": "^7.23.8",
+		"@babel/preset-react": "^7.23.3",
+		"@rollup/plugin-babel": "^6.0.4",
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@rollup/plugin-replace": "^5.0.5",
+		"react": "^18.2.0",
+		"rollup": "^4.9.5",
+		"rollup-plugin-postcss": "^4.0.2"
+	},
+	"peerDependencies": {
+		"react": "^18.2.0"
+	},
+	"dependencies": {
+		"rollup-plugin-import-css": "^3.4.0",
+		"sass": "^1.70.0"
+	}
+}

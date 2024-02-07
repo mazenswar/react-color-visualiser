@@ -1,0 +1,113 @@
+#rcv-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+#rcv-main #rcv-display {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+#rcv-main #rcv-controls {
+  width: 40%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+  background-color: #262626;
+  color: ivory;
+}
+#rcv-main #rcv-controls h1,
+#rcv-main #rcv-controls h2,
+#rcv-main #rcv-controls h3 {
+  text-decoration: underline #fec601;
+  text-decoration-thickness: 6px;
+}
+#rcv-main #rcv-controls h1 {
+  font-size: clamp(20px, 2vw, 65px);
+  text-align: center;
+  color: ivory;
+  padding: 2vw 0;
+}
+#rcv-main #rcv-controls h2 {
+  font-size: clamp(20px, 1.5vw, 45px);
+}
+#rcv-main #rcv-controls h3 {
+  font-size: clamp(20px, 1vw, 45px);
+}
+#rcv-main #rcv-controls span,
+#rcv-main #rcv-controls label,
+#rcv-main #rcv-controls textarea,
+#rcv-main #rcv-controls button,
+#rcv-main #rcv-controls input {
+  font-size: clamp(30px, 1em, 60px);
+}
+#rcv-main #rcv-controls h2,
+#rcv-main #rcv-controls h3 {
+  color: ivory;
+}
+#rcv-main #rcv-controls span {
+  color: #3b8ea5;
+  padding: 1.5vw 0;
+  font-weight: 600;
+  background: ivory;
+  width: fit-content;
+  padding: 3%;
+  border-radius: 50px;
+  margin: 4% 0;
+}
+#rcv-main #rcv-controls #rcv-selected #rvc-ns {
+  width: 100%;
+  text-align: center;
+  padding: 5vw;
+}
+#rcv-main #rcv-controls #rcv-selected .css-attr {
+  border-top: 5px solid ivory;
+}
+#rcv-main #rcv-controls #rcv-selected .css-attr label {
+  margin: 2vw 0;
+  display: flex;
+  width: 100%;
+  padding: 0 2%;
+  justify-content: space-between;
+}
+#rcv-main #rcv-controls #rcv-selected div {
+  padding: 2vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#rcv-main #rcv-controls .import-container {
+  border-top: 5px solid #eee;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 4%;
+}
+#rcv-main #rcv-controls .import-container textarea {
+  width: 100%;
+}
+#rcv-main #rcv-controls .import-container button {
+  background: none;
+  background-color: none;
+  font-weight: 700;
+  border: 5px solid #fec601;
+  border-radius: 5px;
+  width: clamp(90px, 40%, 200px);
+  margin: 2%;
+  padding: 2% 0;
+}
+#rcv-main #rcv-controls #custom-color-picker {
+  border-top: 5px solid #eee;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+#rcv-main #rcv-controls #custom-color-picker .custom-color {
+  padding: 1% 5%;
+  display: flex;
+  justify-content: space-between;
+}
